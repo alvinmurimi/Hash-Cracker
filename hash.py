@@ -49,5 +49,5 @@ def crack(ihash):
 			print t
 			f = open("cracks.txt","a")
 			f.write(t)
-
-crack(ihash)
+if __name__ == "__main__":
+	crack(ihash)
